@@ -1,0 +1,13 @@
+{
+  "authtor": "Andy Appleton <http://floatleft.com>"
+  "name": "demain",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A short description of your theme",
+  "repository": "https://github.com/atom/demain",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
