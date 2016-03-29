@@ -24,7 +24,8 @@ atom-text-editor .wrap-guide, :host .wrap-guide {
 }
 
 atom-text-editor .indent-guide, :host .indent-guide {
-  color: @syntax-indent-guide-color;
+  border-left: 1px dotted @syntax-indent-guide-color;
+  color: transparent;
 }
 
 atom-text-editor .invisible-character, :host .invisible-character {
@@ -60,7 +61,14 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #111111;
 }
 
-.variable.other.object.js, .punctuation.definition.parameters, .meta.group.braces.round.function.arguments.js, .variable.other.readwrite.js, .variable.other.constant.js, .string.unquoted.label.js {
+.variable.other.object.js,
+.punctuation.definition.arguments,
+.meta.group.braces.round.function.arguments.js,
+.variable.other.readwrite.js,
+.variable.other.constant.js,
+.string.unquoted.label.js
+.function.js,
+.arguments.js {
   color: #111111;
 }
 
